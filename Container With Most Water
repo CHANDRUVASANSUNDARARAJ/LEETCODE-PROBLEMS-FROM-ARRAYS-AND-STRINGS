@@ -1,6 +1,16 @@
+/*
+ * Filename: d:\Test\LEETCODE-PROBLEMS-FROM-ARRAYS-AND-STRINGS\Container With Most Water
+ * Path: d:\Test\LEETCODE-PROBLEMS-FROM-ARRAYS-AND-STRINGS
+ * Created Date: Saturday, November 18th 2023, 10:28:07 am
+ * Author:  CHANDRUVASAN S
+ * 
+ * Copyright (c) 2023 Trinom Digital Pvt Ltd
+ */
+
 class Solution {
     public int maxArea(int[] h) {
         int w=0,l=0,r=h.length-1;
+        int test = 0;
         while(l<r)
         {
             w = Math.max(w,Math.min(h[l],h[r])*(r-l));
