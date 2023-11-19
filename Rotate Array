@@ -1,3 +1,12 @@
+/*
+ * Filename: d:\Test\LEETCODE-PROBLEMS-FROM-ARRAYS-AND-STRINGS\Rotate Array
+ * Path: d:\Test\LEETCODE-PROBLEMS-FROM-ARRAYS-AND-STRINGS
+ * Created Date: Saturday, November 18th 2023, 10:28:07 am
+ * Author:  CHANDRUVASAN S
+ * 
+ * Copyright (c) 2023 Trinom Digital Pvt Ltd
+ */
+
 class Solution {
 public:
     void rotate(vector<int>& v, int k) {
@@ -6,3 +15,7 @@ public:
     reverse(v.begin(),v.begin()+k);
     reverse(v.begin()+k,v.end());}
 };
+
+//By using reverse function
+
+// if it is string we can use while loop also to reverse
