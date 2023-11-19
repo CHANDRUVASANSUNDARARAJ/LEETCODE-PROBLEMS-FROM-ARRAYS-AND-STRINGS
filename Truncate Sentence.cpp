@@ -7,6 +7,8 @@
  * Copyright (c) 2023 Trinom Digital Pvt Ltd
  */
 
+// By using space we can seperate sentences
+
 class Solution {
 public:
     string truncateSentence(string s, int k) {
