@@ -1,0 +1,14 @@
+class Solution {
+public:
+    int strStr(string h, string n) {
+         int ln=n.size();
+         int lh=h.size();
+         int i=0;
+         while(i<lh)
+         {
+             if(h.substr(i,ln)==n)   return i;
+             i++;
+         }
+         return -1;
+    }
+};
